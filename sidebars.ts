@@ -27,9 +27,36 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Basic Features", // Renamed from "Core Features" for better hierarchy
+      label: "Features", // Renamed from "Core Features" for better hierarchy
       collapsed: false,
-      items: ["commands", "shell-integration", "operating-agents", "custom-rules"],
+      items: ["commands", "shell-commands", "auto-complete", "operating-agents", "custom-rules"],
+    },
+    {
+      type: "category",
+      label: "Guides",
+      collapsed: false,
+      items: [
+        {
+          type: "doc",
+          id: "plan-and-act-guide",
+          label: "Plan First, Then Act",
+        },
+        {
+          type: "doc",
+          id: "model-selection-guide",
+          label: "Switching Models",
+        },
+        {
+          type: "doc",
+          id: "custom-rules-guide",
+          label: "Working with Custom Rules",
+        },
+        {
+          type: "doc",
+          id: "file-tagging-guide",
+          label: "File Tagging with @",
+        },
+      ],
     },
     {
       type: "category",
@@ -44,6 +71,7 @@ const sidebars: SidebarsConfig = {
       label: "Advanced Configuration",
       collapsed: false,
       items: [
+        "workflow-config",
         "environment-configuration",
         "mcp-integration",
         "context-compaction",

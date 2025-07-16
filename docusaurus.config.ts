@@ -154,7 +154,7 @@ export default {
         {to: "/pricing", label: "Pricing", position: "left"},
         {to: "/docs", label: "Docs", position: "left"},
         {to: "/blog", label: "Blogs", position: "left"},
-        {to: "/releases", label: "Releases", position: "left"},
+
         // {
         //   label: "Developers",
         //   position: "left",
@@ -175,7 +175,7 @@ export default {
     prism: {
       theme: prismTheme,
       darkTheme: prismTheme,
-      additionalLanguages: ["protobuf", "json", "diff"],
+      additionalLanguages: ["protobuf", "json", "diff", "bash"],
     },
     colorMode: {
       disableSwitch: true,

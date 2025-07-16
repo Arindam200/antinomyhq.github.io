@@ -36,7 +36,6 @@ const Banner = (): JSX.Element => {
               onClick={() => analyticsHandler("Home Page", "Click", "Get Started")}
             />
           </div>
-
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8 pt-6 border-t border-gray-200">
             <div className="flex justify-center">
               <a
